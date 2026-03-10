@@ -1,0 +1,31 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.hero-section {
+    background: linear-gradient(120deg, #1d3557, #457b9d);
+    color: #fff;
+    padding: 4rem 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.hero-section h1 {
+    font-weight: 700;
+}
+
+.product-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.badge-oferta {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+}
+
