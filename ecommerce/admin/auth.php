@@ -11,7 +11,7 @@ function isAdminLoggedIn(): bool
 function requireAdmin(): void
 {
     if (!isAdminLoggedIn()) {
-        header('Location: ' . $GLOBALS['baseUrl'] . '/admin/login.php');
+        header('Location: ' . $GLOBALS['baseUrl'] . '/index.php?page=login');
         exit;
     }
 }
